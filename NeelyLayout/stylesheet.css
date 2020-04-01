@@ -1,0 +1,45 @@
+#content {
+  margin: 0 auto;
+  width: 900px;
+}
+
+img {
+  text-align: center;
+}
+
+h1 {
+font-family: helvetica, Arial, sans-serif;
+font-size: 25pt;
+text-align: center;
+}
+
+h2 {
+font-family: helvetica, Arial, sans-serif;
+font-size: 14pt;
+font-style: italic;
+text-align: center;
+font-weight: lighter;
+}
+
+h3 {
+font-family: helvetica, Arial, sans-serif;
+font-size: 14pt;
+font-style: italic;
+text-align: center;
+font-weight: lighter;
+}
+
+p {
+font-family: Georgia, serif;
+font-size: 13px;
+line-height: normal;
+}
+
+blockquote {
+font-size: 20px;
+font-weight: bold;
+}
+
+h4 {
+  font-size: 17px;
+}
