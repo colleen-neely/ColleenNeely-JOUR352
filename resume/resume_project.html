@@ -28,7 +28,7 @@
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
 
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -36,16 +36,16 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link" href="#">Colleen Neely<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#banner_1">Colleen Neely<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Experience<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#experience_row">Experience<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Education<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#education_row">Education<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item active">
-            <a class="nav-link" href="#">Skills<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="#skills_row">Skills<span class="sr-only">(current)</span></a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Social Media</a>
@@ -56,16 +56,13 @@
             </div>
           </li>
         </ul>
-        <form class="form-inline my-2 my-lg-0">
-          <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
-          <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
       </div>
     </nav>
 
-    <img src ="banner_1.png" alt=banner class = banner>
+    <img src ="banner_1.png" alt=banner class = banner id = banner_1>
     <!--Ocean photo on banner by Christoffer Engström on Unsplash-->
-    <img src ="banner_2.png" alt=banner class = banner>
+    <img src ="banner_2.png" alt=banner class = banner id = banner_2>
 
     <div class="container-fluid">
       <div class="row" id = "experience_row">
@@ -74,28 +71,28 @@
 
           <div class = "experience_section">
             <div class = "jobtitle">Copy Editor Intern</div>
-            <div class = "organization">Baltimore Business Journal</div>
+            <a class = "organization" href="https://www.bizjournals.com/baltimore/" target =_new>Baltimore Business Journal</a>
             <div class = "date">January 2018 – May 2018</div>
             <div class = "description">I received credit while completing a semester long internship in high school with the Baltimore Business Journal. Once a week I proofed copy for the print edition of the paper.</div>
           </div>
 
           <div class = "experience_section">
             <div class = "jobtitle">General Assignment Reporter</div>
-            <div class = "organization">The Diamondback</div>
+            <a class = "organization" href="https://www.dbknews.com" target=_new>The Diamondback</a>
             <div class = "date">2019-present</div>
             <div class = "description">I cover a variety of topics for the Diamondback, the University of Maryland’s independent student newspaper. I also pitch stories for them and report on approved pitches.</div>
           </div>
 
           <div class = "experience_section">
             <div class = "jobtitle">Copy Editor</div>
-            <div class = "organization">Unwind Magazine</div>
+            <a class = "organization" href="https://unwindumd.wordpress.com" target=_new>Unwind Magazine</a>
             <div class = "date">2019-present</div>
             <div class = "description">I copy edit stories written for Unwind Magazine, an on-campus entertainment news magazine written by students.</div>
           </div>
 
           <div class = "experience_section">
             <div class = "jobtitle">Staff Writer</div>
-            <div class = "organization">The Writer’s Bloc</div>
+            <a class = "organization" href="https://umdwritersbloc.com" target=_new>The Writer’s Bloc</a>
             <div class = "date">2019</div>
             <div class = "description">I pitched and wrote my own stories covering the arts on and around campus and in the Washington D.C. area.</div>
           </div>
@@ -144,13 +141,8 @@
 
 
     <footer>
-      <div id = "footer">Colleen Neely>
+      <div id = "footer">Colleen Neely</div>
       <div id = "footer">Copyright 2020 <i class="far fa-copyright"></i></div>
-          <!-- <a href="https://www.facebook.com/sharer.php?..." target="blank" rel="noopener noreferrer">Share to Facebook</a><br>
-          <a href="https://twitter.com/intent/tweet?..." target="blank" rel="noopener noreferrer">Share to Twitter</a><br>
-          <a href="https://www.linkedin.com/shareArticle?..." target="blank" rel="noopener noreferrer">Share to LinkedIn</a> -->
-      </div>
-
     </footer>
 
 
