@@ -12,10 +12,15 @@
 .headline {
   font-size: 2.25em;
   font-weight: 700;
-  text-align: center;
   font-family: 'Montserrat', sans-serif;
-  margin-top: 2em;
   display: block;
+  margin-top: 2em;
+  /**code lines 20-24 edited from https://www.w3.org/Style/Examples/007/center.en.html**/
+  position: relative;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%)
 }
 
 .byline {
@@ -43,7 +48,7 @@ p {
   padding-bottom: 2em;
 }
 
-/**Fade in code edited from Maddy Osman at https://blog.hubspot.com/website/css-fade-in**/
+/**Fade in animation code edited from Maddy Osman at https://blog.hubspot.com/website/css-fade-in**/
 .fade-in {
   opacity: 55%;
   transition:opacity 1s
